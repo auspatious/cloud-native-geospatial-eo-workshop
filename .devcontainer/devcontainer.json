@@ -15,7 +15,6 @@
       "upgradePackages": "true"
     },
     "ghcr.io/devcontainers/features/python:1": {
-      "version": "3.11",
       "installJupyterlab": true
     },
     "ghcr.io/devcontainers/features/git:1": {
@@ -23,7 +22,7 @@
       "ppa": "false"
     }
   },
-  "postCreateCommand": "pip3 install --user -r requirements.txt",
+  "postCreateCommand": "pip3 install -r requirements.txt",
   "customizations": {
     "vscode": {
       "settings": {
