@@ -9,5 +9,5 @@ jinja2
 matplotlib
 mapclassify
 odc-geo[all]
-odc-stac[all]
+odc-stac
 pystac-client
