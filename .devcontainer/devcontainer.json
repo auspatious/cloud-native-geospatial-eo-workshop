@@ -1,6 +1,6 @@
 {
   "name": "Cloud Native Geo for EO",
-  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12",
   "hostRequirements": {
     "cpus": 4,
     "memory": "16gb",

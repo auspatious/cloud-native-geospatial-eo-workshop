@@ -2,7 +2,7 @@ bokeh
 botocore
 earthaccess
 folium
-eo_insights[notebooks] @ git+https://github.com/auspatious/eo-insights.git
+# eo_insights[notebooks] @ git+https://github.com/auspatious/eo-insights.git
 geopandas
 ipyleaflet
 jinja2
@@ -10,4 +10,6 @@ matplotlib
 mapclassify
 odc-geo[all]
 odc-stac
+planetary_computer
 pystac-client
+stacrs
