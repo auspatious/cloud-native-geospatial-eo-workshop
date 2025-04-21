@@ -9,6 +9,7 @@ jinja2
 matplotlib
 mapclassify
 odc-geo[all]
+odc-loader==0.5.1
 odc-stac
 planetary_computer
 pystac-client

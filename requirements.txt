@@ -89,6 +89,7 @@ dask==2025.3.0
     # via
     #   distributed
     #   odc-geo
+    #   odc-loader
     #   odc-stac
 decorator==5.2.1
     # via ipython
@@ -195,6 +196,7 @@ numpy==2.2.5
     #   mapclassify
     #   matplotlib
     #   odc-geo
+    #   odc-loader
     #   odc-stac
     #   pandas
     #   pyogrio
@@ -207,7 +209,10 @@ numpy==2.2.5
 odc-geo==0.4.10
     # via
     #   -r requirements.in
+    #   odc-loader
     #   odc-stac
+odc-loader==0.5.1
+    # via -r requirements.in
 odc-stac==0.3.11
     # via -r requirements.in
 packaging==25.0
@@ -307,6 +312,7 @@ pyyaml==6.0.2
 rasterio==1.4.3
     # via
     #   odc-geo
+    #   odc-loader
     #   odc-stac
 referencing==0.36.2
     # via
@@ -407,6 +413,7 @@ wrapt==1.17.2
 xarray==2025.3.1
     # via
     #   odc-geo
+    #   odc-loader
     #   odc-stac
 xyzservices==2025.1.0
     # via
