@@ -9,20 +9,13 @@
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {
       "installZsh": "true",
-      "username": "vscode",
-      "userUid": "1000",
-      "userGid": "1000",
       "upgradePackages": "true"
     },
-    "ghcr.io/devcontainers/features/python:1": {
-      "installJupyterlab": true
-    },
     "ghcr.io/devcontainers/features/git:1": {
-      "version": "latest",
       "ppa": "false"
     }
   },
-  "postCreateCommand": "pip3 install -r requirements.txt",
+  "postCreateCommand": "pip install -r requirements.txt",
   "customizations": {
     "vscode": {
       "settings": {
