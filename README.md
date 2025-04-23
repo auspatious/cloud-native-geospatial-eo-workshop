@@ -5,11 +5,12 @@ cloud native methods of working with Earth observation data products.
 
 There are two activities, each with an annotated notebook:
 
-- Activity 1: Find, Load, Visualise
-- Activity 2: Cloud Native Land Productivity for SDG 15
+- Activity 1: Find, Load and Visualise Sentinel-2 from Earth Search
+- Activity 2: Cloud Native Land Productivity for SDG 15 using Landsat from MSPC
+- Activity 3: Exploring Land Productivity Data using STAC Geoparquet
 
-Activity 1 demonstrates how to query the Digital Earth Australia STAC 
-catalog and produce a visually appealing image for a location in Australia. 
+Activity 1 demonstrates how to query the Earth Search STAC API from Element-84
+and produce a visually appealing image for a location in Utah. 
 
 Activity 2 demonstrates how to measure land productivity
 as a subindicator of Sustainable Development Goal indicator 15.3.1:
@@ -17,7 +18,11 @@ Proportion of land that is degraded over total land area. For more information
 please see the
 [Satellite Data Requirements for SDGIndicator 15.3.1](https://ceos.org/sdg/files/supportsheets/SDG_15.3.1_EO_Satellite_Data_Requirements_31Aug2022.pdf)
 document.
-The use case covers an area of agriculture and forest on the Ba River in Fiji. 
+The use case covers an area of agriculture and forest on the Ba River in Fiji.
+
+Activity 3 demonstrates the use of a range of cloud native tools, including
+the use of STAC Geoparquet as a store of STAC Items, and loading and masking
+EO data using a vector dataset.
 
 ## Quickstart
 
@@ -38,14 +43,6 @@ includes the ability to run and edit Jupyter Notebooks.
 
 ![The required buttons for launching a Codespace](images/launch_codespace.png "Tabs for launching a Codespace in this Repository")
 
-### Sign into NASA's Earthdata portal and create an access token
-
-Sign up for EarthData: [https://urs.earthdata.nasa.gov/](https://urs.earthdata.nasa.gov/) if you don't have an account already.
-
-The notebook uses the [`earthaccess`](https://github.com/nsidc/earthaccess) library for authenticating with NASA's Earthdata system.
-
-`earthaccess.login()` prompts you for your Earthdata username and password. Once authenticated, you will have access to credentials for both HTTP and S3 access to Earthdata collections.
-
 ### Run the demonstration notebooks
 
 Open the `Find_Load_Visualise.ipynb`
@@ -60,14 +57,15 @@ These notebooks were written by Alex Leith and Caitlin Adams, with
 financial support from the
 [Committee on Earth Observation Satellites](https://ceos.org/)
 and advice from members of the [GEO Land Degradation Neutrality Flagship](https://geo-ldn.org/).
+
 The notebooks were reviewed by Lavender Liu and Matthew Ellis.
 
 ## Further resources
 
-### Digital Earth Australia's Sentinel-2 prodcut
+### ESA's Sentinel-2 product managed by Element-84
 
-* [Product overview](https://knowledge.dea.ga.gov.au/notebooks/DEA_products/DEA_Sentinel2_Surface_Reflectance/)
-* STAC catalog URL: [https://explorer.dea.ga.gov.au/stac](https://explorer.dea.ga.gov.au/stac)
+* [Product overview](https://registry.opendata.aws/sentinel-2-l2a-cogs/)
+* STAC catalog URL: [https://earth-search.aws.element84.com/v1/](https://earth-search.aws.element84.com/v1/)
 
 ### NASA's Harmonized Landsat Sentinel-2 product
 
