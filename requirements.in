@@ -4,6 +4,7 @@ earthaccess
 folium
 # eo_insights[notebooks] @ git+https://github.com/auspatious/eo-insights.git
 geopandas
+griffine
 ipyleaflet
 jinja2
 matplotlib
