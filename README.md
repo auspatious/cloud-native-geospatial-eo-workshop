@@ -28,8 +28,8 @@ EO data using a vector dataset.
 
 ### Tutorial PDF
 
-Along with a completed notebook, we provide a [step-by-step PDF document](https://drive.google.com/file/d/1dmUZ8ZDKVuPLrgETfBRwIkzupyYkFmk3/view?usp=sharing).
-This was used to run the tutorial at the 2024 FOSS4G in Belem.
+Along with a completed notebook, we provide a [step-by-step document](https://drive.google.com/file/d/1dmUZ8ZDKVuPLrgETfBRwIkzupyYkFmk3/view?usp=sharing).
+This was used to run the tutorial at the 2025 CNG Conference in Snowbird, Utah.
 
 ### Start the Codespace
 
