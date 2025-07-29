@@ -212,8 +212,10 @@ odc-geo==0.4.10
     #   odc-loader
     #   odc-stac
 odc-loader==0.5.1
-    # via -r requirements.in
-odc-stac==0.3.11
+    # via
+    #   -r requirements.in
+    #   odc-stac
+odc-stac==0.4.0
     # via -r requirements.in
 packaging==25.0
     # via
@@ -330,6 +332,8 @@ rpds-py==0.24.0
     # via
     #   jsonschema
     #   referencing
+rustac==0.8.1
+    # via -r requirements.in
 s3fs==2025.3.2
     # via earthaccess
 s3transfer==0.11.3
@@ -352,8 +356,6 @@ sortedcontainers==2.4.0
     # via distributed
 stack-data==0.6.3
     # via ipython
-stacrs==0.5.9
-    # via -r requirements.in
 tblib==3.1.0
     # via distributed
 threadpoolctl==3.6.0
@@ -389,6 +391,7 @@ typing-extensions==4.13.2
     #   azure-storage-blob
     #   earthaccess
     #   ipython
+    #   odc-stac
     #   pqdm
     #   pydantic
     #   pydantic-core
