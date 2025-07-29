@@ -7,7 +7,7 @@ There are two activities, each with an annotated notebook:
 
 - Activity 1: Find, Load and Visualise Sentinel-2 from Earth Search
 - Activity 2: Cloud Native Land Productivity for SDG 15 using Landsat from MSPC
-- Activity 3: Exploring Land Productivity Data using STAC Geoparquet
+- Activity 3: Exploring Sea Surface Temperature Data using STAC Geoparquet
 
 Activity 1 demonstrates how to query the Earth Search STAC API from Element-84
 and produce a visually appealing image for a location in Utah. 
@@ -21,15 +21,14 @@ document.
 The use case covers an area of agriculture and forest on the Ba River in Fiji.
 
 Activity 3 demonstrates the use of a range of cloud native tools, including
-the use of STAC Geoparquet as a store of STAC Items, and loading and masking
-EO data using a vector dataset.
+the use of STAC Geoparquet as a store of STAC Items.
 
 ## Quickstart
 
 ### Tutorial PDF
 
-Along with a completed notebook, we provide a [step-by-step document](https://drive.google.com/file/d/1dmUZ8ZDKVuPLrgETfBRwIkzupyYkFmk3/view?usp=sharing).
-This was used to run the tutorial at the 2025 CNG Conference in Snowbird, Utah.
+Along with a completed notebook, we provide a [step-by-step PDF document](https://drive.google.com/file/d/1dmUZ8ZDKVuPLrgETfBRwIkzupyYkFmk3/view?usp=sharing).
+This was used to run the tutorial at the 2025 IGARSS in Brisbane, Australia.
 
 ### Start the Codespace
 
@@ -51,6 +50,9 @@ notebook and work through the cells.
 Open the `Cloud_Native_Land_Productivity_For_SDG15.ipynb`
 notebook and work through the cells.
 
+Open the `03_Sea_Surface_Temperature_Timeseries_STAC_Geoparquet.ipynb`
+notebook and work through the cells.
+
 ## Authorship and sponsorship
 
 These notebooks were written by Alex Leith and Caitlin Adams, with
@@ -62,16 +64,18 @@ The notebooks were reviewed by Lavender Liu and Matthew Ellis.
 
 ## Further resources
 
-### ESA's Sentinel-2 product managed by Element-84
+### Earth Search STAC API from Element-84
 
-* [Product overview](https://registry.opendata.aws/sentinel-2-l2a-cogs/)
 * STAC catalog URL: [https://earth-search.aws.element84.com/v1/](https://earth-search.aws.element84.com/v1/)
 
-### NASA's Harmonized Landsat Sentinel-2 product
+### STAC API from Microsoft Planetary Computer
 
-* [Product overvivew](https://hls.gsfc.nasa.gov/)
-* [User guide](https://lpdaac.usgs.gov/documents/1698/HLS_User_Guide_V2.pdf)
-* STAC catalog URL: [https://cmr.earthdata.nasa.gov/cloudstac/LPCLOUD/](https://cmr.earthdata.nasa.gov/cloudstac/LPCLOUD/)
+* STAC catalog URL: [https://planetarycomputer.microsoft.com/api/stac/v1/](https://planetarycomputer.microsoft.com/api/stac/v1/)
+
+### STAC Geoparquet from the Australian Antarctic Division, hosted by Source Cooperative
+
+* Documentation: [https://source.coop/repositories/ausantarctic/ghrsst-mur-v2/description](https://source.coop/repositories/ausantarctic/ghrsst-mur-v2/description)
+* Geoparquet URL: [https://data.source.coop/ausantarctic/ghrsst-mur-v2/ghrsst-mur-v2.parquet](https://data.source.coop/ausantarctic/ghrsst-mur-v2/ghrsst-mur-v2.parquet)
 
 ### SDG indicator 15.3.1
 
