@@ -45,7 +45,7 @@ includes the ability to run and edit Jupyter Notebooks.
 ### Run the demonstration notebooks
 
 Open the `Find_Load_Visualise.ipynb`
-notebook and work through the cells.
+notebook and work through the cells. When running the first cell, you need to follow the instructions to select a Python interpreter, set up a virtual environment, install the packages in the requirements.txt file, and install ipykernel.
 
 Open the `Cloud_Native_Land_Productivity_For_SDG15.ipynb`
 notebook and work through the cells.
