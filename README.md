@@ -27,8 +27,8 @@ the use of STAC Geoparquet as a store of STAC Items.
 
 ### Tutorial PDF
 
-Along with a completed notebook, we provide a [step-by-step PDF document](https://drive.google.com/file/d/1JZ61UMjcYYbEfyukkZMPDtFC984Z7bNa/view?usp=sharing).
-This was used to run the tutorial at the 2025 IGARSS in Brisbane, Australia.
+Along with a completed notebook, we provide a [step-by-step PDF document](https://drive.google.com/file/d/1rfjvJXh01oNO_Q_VmFkyEuOvG4yLMwGe/view?usp=sharing).
+This was used to run the tutorial at the 2025 FOSS4G in Auckland, New Zealand.
 
 ### Start the Codespace
 
