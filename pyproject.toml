@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Cloud Native Geospatial for Earth Observation Workshop"
 requires-python = ">=3.12"
 dependencies = [
-    "botocore>=1.43.67",
+    "botocore>=1.43.56",
     "dask[distributed]>=2026.7.1",
     "folium>=0.20.0",
     "geopandas>=1.1.4",
@@ -20,7 +20,10 @@ dependencies = [
     "pystac>=1.15.2",
     "pystac-client>=0.9.0",
     "rustac>=0.9.16",
+    "s3fs>=2026.7.0",
+    "scikit-learn>=1.9.0",
     "xarray>=2026.07.0",
+    "zarr>=3.3.0",
 ]
 
 [tool.uv]
