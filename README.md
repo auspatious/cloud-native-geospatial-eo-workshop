@@ -28,7 +28,9 @@ the use of STAC Geoparquet as a store of STAC Items.
 ### Tutorial PDF
 
 Along with a completed notebook, we provide a [step-by-step PDF document](https://drive.google.com/file/d/1rfjvJXh01oNO_Q_VmFkyEuOvG4yLMwGe/view?usp=sharing).
-This was used to run the tutorial at the 2025 FOSS4G in Auckland, New Zealand.
+This was used to run the tutorial at the:
+- 2025 FOSS4G in Auckland, New Zealand.
+- 2026 FOSS4G in Hiroshima, Japan.
 
 ### Start the Codespace
 
@@ -44,8 +46,15 @@ includes the ability to run and edit Jupyter Notebooks.
 
 ### Run the demonstration notebooks
 
-Open the `Find_Load_Visualise.ipynb`
-notebook and work through the cells. When running the first cell, you need to follow the instructions to select a Python interpreter, set up a virtual environment, install the packages in the requirements.txt file, and install ipykernel.
+Install uv, then install Python packages into a venv:
+
+```
+brew install uv
+uv sync
+source .venv/bin/activate
+```
+
+Then in the first notebook `Find_Load_Visualise.ipynb`, select the .venv as the kernel. Now work through the cells.
 
 Open the `Cloud_Native_Land_Productivity_For_SDG15.ipynb`
 notebook and work through the cells.
