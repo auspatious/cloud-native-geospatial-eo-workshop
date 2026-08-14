@@ -6,9 +6,7 @@
     "memory": "16gb",
     "storage": "32gb"
   },
-  "features": {
-    "ghcr.io/astral-sh/uv/devcontainer-feature:1": {}
-  },
+  "onCreateCommand": "pip install uv",
   "updateContentCommand": "uv sync",
   "postCreateCommand": ".venv/bin/python -m ipykernel install --user --name cloud-native-geo-eo --display-name 'Cloud Native Geo for EO'",
   "forwardPorts": [8888, 8787],
