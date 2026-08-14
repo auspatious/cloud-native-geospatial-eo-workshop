@@ -8,11 +8,7 @@
   },
   "onCreateCommand": "pip install --user uv",
   "postCreateCommand": "uv sync && .venv/bin/python -m ipykernel install --user --name cloud-native-geo-eo --display-name 'Cloud Native Geo for EO'",
-  "forwardPorts": [8787],
-  "portsAttributes": {
-    "8787": { "label": "Dask Dashboard" }
-  },
-  "customizations": {
+"customizations": {
     "vscode": {
       "settings": {
         "python.defaultInterpreterPath": "${containerWorkspaceFolder}/.venv/bin/python"
