@@ -5,10 +5,10 @@ of working with Earth observation data products.
 
 There are four activities, each with an annotated notebook:
 
-- Activity 1: Find, Load and Visualise Sentinel-2 from Earth Search
-- Activity 2: Cloud Native Land Productivity for SDG 15 using Landsat from MSPC
-- Activity 3: Exploring Sea Surface Temperature Data using STAC Geoparquet
-- Activity 4: Alpha Earth Embeddings
+- [Activity 1: Find, Load and Visualise Sentinel-2 from Earth Search](01_Find_Load_Visualise.ipynb)
+- [Activity 2: Cloud Native Land Productivity for SDG 15 using Landsat from MSPC](02_Cloud_Native_Land_Productivity_For_SDG15_LS.ipynb)
+- [Activity 3: Exploring Sea Surface Temperature Data using STAC Geoparquet](03_Sea_Surface_Temperature_Timeseries_STAC_Geoparquet.ipynb)
+- [Activity 4: Alpha Earth Embeddings](04_Alpha_Earth_Embeddings.ipynb)
 
 Activity 1 demonstrates how to query the Earth Search STAC API from Element-84
 and produce a visually appealing image for a location in Utah.
