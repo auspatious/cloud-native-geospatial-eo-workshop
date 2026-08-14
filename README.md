@@ -77,6 +77,10 @@ The notebooks were reviewed by Lavender Liu and Matthew Ellis.
 * Documentation: [https://source.coop/repositories/ausantarctic/ghrsst-mur-v2/description](https://source.coop/repositories/ausantarctic/ghrsst-mur-v2/description)
 * Geoparquet URL: [https://data.source.coop/ausantarctic/ghrsst-mur-v2/ghrsst-mur-v2.parquet](https://data.source.coop/ausantarctic/ghrsst-mur-v2/ghrsst-mur-v2.parquet)
 
+### Alpha Earth Embeddings from TGE Labs, hosted by Source Cooperative
+
+* Dataset: [https://source.coop/tge-labs/aef](https://source.coop/tge-labs/aef)
+
 ### SDG indicator 15.3.1
 
 * [Good practice guidance. SDG indicator 15.3.1, Proportion of land that is degraded over total land area. Version 2.0.](https://www.unccd.int/resources/manuals-and-guides/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded)
