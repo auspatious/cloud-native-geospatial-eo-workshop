@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Cloud Native Geospatial for Earth Observation Workshop"
 requires-python = ">=3.12"
 dependencies = [
+    "bokeh>=3.9.2",
     "botocore>=1.43.56",
     "dask[distributed]>=2026.7.1",
     "folium>=0.20.0",
