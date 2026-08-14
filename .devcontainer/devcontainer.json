@@ -7,15 +7,15 @@
     "storage": "32gb"
   },
   "features": {
-    "ghcr.io/devcontainers/features/common-utils:2": {
-      "installZsh": "true",
-      "upgradePackages": "true"
-    },
-    "ghcr.io/devcontainers/features/git:1": {
-      "ppa": "false"
-    }
+    "ghcr.io/astral-sh/uv/devcontainer-feature:1": {}
   },
-  "postCreateCommand": "pip install --user uv && uv sync && .venv/bin/python -m ipykernel install --user --name cloud-native-geo-eo --display-name 'Cloud Native Geo for EO'",
+  "updateContentCommand": "uv sync",
+  "postCreateCommand": ".venv/bin/python -m ipykernel install --user --name cloud-native-geo-eo --display-name 'Cloud Native Geo for EO'",
+  "forwardPorts": [8888, 8787],
+  "portsAttributes": {
+    "8888": { "label": "Jupyter", "onAutoForward": "openBrowser" },
+    "8787": { "label": "Dask Dashboard" }
+  },
   "customizations": {
     "vscode": {
       "settings": {
