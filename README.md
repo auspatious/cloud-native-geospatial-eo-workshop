@@ -1,7 +1,7 @@
 # Cloud Native Geospatial for Earth Observation Workshop
 
-This repository contains workshop materials introducing cloud native methods
-of working with Earth observation data products.
+This repository contains workshop materials introducing cloud native geospatial
+tools, technologies and concepts in relation to working with Earth observation data products.
 
 There are four activities, each with an annotated notebook:
 
@@ -22,16 +22,13 @@ The use case covers an area of agriculture and forest on the Ba River in Fiji.
 Activity 3 demonstrates the use of a range of cloud native tools, including
 STAC Geoparquet as a store of STAC Items.
 
-Activity 4 demonstrates the use of Alpha Earth Embeddings for Earth observation.
+Activity 4 demonstrates the use of Alpha Earth Embeddings for land cover classification.
 
 ## Quickstart
 
 ### Tutorial PDF
 
 Along with completed notebooks, we provide a [step-by-step PDF document](https://drive.google.com/file/d/1rfjvJXh01oNO_Q_VmFkyEuOvG4yLMwGe/view?usp=sharing).
-This was used to run the tutorial at the:
-- 2025 FOSS4G in Auckland, New Zealand
-- 2026 FOSS4G in Hiroshima, Japan
 
 ### GitHub Codespace
 
@@ -56,7 +53,7 @@ uv run --with jupyter jupyter lab
 
 ## Authorship and sponsorship
 
-These notebooks were written by Alex Leith and Caitlin Adams, with financial
+These notebooks were written by @caitlinadams, @alexgleith and @willjnz with financial
 support from the [Committee on Earth Observation Satellites](https://ceos.org/)
 and advice from members of the [GEO Land Degradation Neutrality Flagship](https://geo-ldn.org/).
 
