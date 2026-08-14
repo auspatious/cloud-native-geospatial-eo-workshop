@@ -6,12 +6,10 @@
     "memory": "16gb",
     "storage": "32gb"
   },
-  "onCreateCommand": "pip install uv",
-  "updateContentCommand": "uv sync",
-  "postCreateCommand": ".venv/bin/python -m ipykernel install --user --name cloud-native-geo-eo --display-name 'Cloud Native Geo for EO'",
-  "forwardPorts": [8888, 8787],
+  "onCreateCommand": "pip install --user uv",
+  "postCreateCommand": "uv sync && .venv/bin/python -m ipykernel install --user --name cloud-native-geo-eo --display-name 'Cloud Native Geo for EO'",
+  "forwardPorts": [8787],
   "portsAttributes": {
-    "8888": { "label": "Jupyter", "onAutoForward": "openBrowser" },
     "8787": { "label": "Dask Dashboard" }
   },
   "customizations": {
