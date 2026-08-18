@@ -1,0 +1,76 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "cogniscient-2026-08-03-index-nir-red-932px-hatsukaichi.tif",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          132.2555054287642,
+          34.22673788179314
+        ],
+        [
+          132.35698658163625,
+          34.22673788179314
+        ],
+        [
+          132.35698658163625,
+          34.3172166985634
+        ],
+        [
+          132.2555054287642,
+          34.3172166985634
+        ],
+        [
+          132.2555054287642,
+          34.22673788179314
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    132.2555054287642,
+    34.22673788179314,
+    132.35698658163625,
+    34.3172166985634
+  ],
+  "properties": {
+    "example": 42.0,
+    "datetime": "2026-08-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Demo Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../ndvi-demo-collection/collection.json",
+      "type": "application/json",
+      "title": "NDVI Demo Collection"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/auspatious/cloud-native-geospatial-eo-workshop/main/stac/cogniscient-2026-08-03-index-nir-red-932px-hatsukaichi.tif/cogniscient-2026-08-03-index-nir-red-932px-hatsukaichi.tif.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../ndvi-demo-collection/collection.json",
+      "type": "application/json",
+      "title": "NDVI Demo Collection"
+    }
+  ],
+  "assets": {
+    "ndvi": {
+      "href": "./.",
+      "type": "image/tiff; application=geotiff",
+      "roles": []
+    }
+  },
+  "collection": "ndvi-demo-collection"
+}

@@ -1,0 +1,90 @@
+{
+  "type": "Collection",
+  "id": "ndvi-demo-collection",
+  "stac_version": "1.1.0",
+  "description": "A demo collection for NDVI data",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Demo Catalog"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://tileserver.example.com/styles/coastlines/wmts.xml",
+      "type": "application/xml",
+      "title": "WMTS Service for this Collection",
+      "wms:layers": [
+        "ndvi"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "../cogniscient-2026-08-03-index-nir-red-932px-hatsukaichi.tif/cogniscient-2026-08-03-index-nir-red-932px-hatsukaichi.tif.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Demo Catalog"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/auspatious/cloud-native-geospatial-eo-workshop/main/stac/ndvi-demo-collection/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "NDVI Demo Collection",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-08-03T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "demo",
+    "stac",
+    "ndvi"
+  ],
+  "providers": [
+    {
+      "name": "Cogniscient",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://cogniscient.auspatious.com"
+    },
+    {
+      "name": "ESA",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://sentinel.esa.int/web/sentinel/missions/sentinel-2"
+    }
+  ],
+  "assets": {
+    "meta": {
+      "href": "empty.xml",
+      "type": "application/xml",
+      "title": "Empty XML File"
+    }
+  }
+}

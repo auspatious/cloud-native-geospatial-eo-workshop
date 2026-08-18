@@ -1,0 +1,26 @@
+{
+  "type": "Catalog",
+  "id": "demo-catalog",
+  "stac_version": "1.1.0",
+  "description": "A demo catalog for the Cloud Native Geospatial EO Workshop",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Demo Catalog"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/auspatious/cloud-native-geospatial-eo-workshop/main/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./ndvi-demo-collection/collection.json",
+      "type": "application/json",
+      "title": "NDVI Demo Collection"
+    }
+  ],
+  "title": "Demo Catalog"
+}
