@@ -48,26 +48,26 @@
       "title": "Demo Catalog"
     },
     {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json",
+      "title": "NDVI Demo Collection"
+    },
+    {
       "rel": "parent",
-      "href": "../ndvi-demo-collection/collection.json",
+      "href": "./collection.json",
       "type": "application/json",
       "title": "NDVI Demo Collection"
     },
     {
       "rel": "self",
-      "href": "https://raw.githubusercontent.com/auspatious/cloud-native-geospatial-eo-workshop/main/stac/cogniscient-2026-08-03-index-nir-red-932px-hatsukaichi.tif/cogniscient-2026-08-03-index-nir-red-932px-hatsukaichi.tif.json",
+      "href": "https://raw.githubusercontent.com/auspatious/cloud-native-geospatial-eo-workshop/main/stac/ndvi-demo-collection/cogniscient-2026-08-03-index-nir-red-932px-hatsukaichi.stac-item.json",
       "type": "application/json"
-    },
-    {
-      "rel": "collection",
-      "href": "../ndvi-demo-collection/collection.json",
-      "type": "application/json",
-      "title": "NDVI Demo Collection"
     }
   ],
   "assets": {
     "ndvi": {
-      "href": "./.",
+      "href": "cogniscient-2026-08-03-index-nir-red-932px-hatsukaichi.tif",
       "type": "image/tiff; application=geotiff",
       "roles": []
     }

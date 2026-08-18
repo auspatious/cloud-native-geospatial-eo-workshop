@@ -21,7 +21,7 @@
     },
     {
       "rel": "item",
-      "href": "../cogniscient-2026-08-03-index-nir-red-932px-hatsukaichi.tif/cogniscient-2026-08-03-index-nir-red-932px-hatsukaichi.tif.json",
+      "href": "./cogniscient-2026-08-03-index-nir-red-932px-hatsukaichi.stac-item.json",
       "type": "application/geo+json"
     },
     {
@@ -41,10 +41,10 @@
     "spatial": {
       "bbox": [
         [
-          -180,
-          -90,
-          180,
-          90
+          132.2555054287642,
+          34.22673788179314,
+          132.35698658163625,
+          34.3172166985634
         ]
       ]
     },
@@ -52,7 +52,7 @@
       "interval": [
         [
           "2026-08-03T00:00:00Z",
-          null
+          "2026-08-03T00:00:00Z"
         ]
       ]
     }
@@ -82,7 +82,7 @@
   ],
   "assets": {
     "meta": {
-      "href": "empty.xml",
+      "href": "example.xml",
       "type": "application/xml",
       "title": "Empty XML File"
     }
