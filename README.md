@@ -28,7 +28,7 @@ Activity 4 demonstrates the use of Alpha Earth Embeddings for land cover classif
 
 ### Tutorial PDF
 
-Along with completed notebooks, we provide a [step-by-step PDF document](https://drive.google.com/file/d/1rfjvJXh01oNO_Q_VmFkyEuOvG4yLMwGe/view?usp=sharing).
+Along with completed notebooks, we provide a [step-by-step PDF document](https://drive.google.com/file/d/1Ffx62Dh0CAAktXZznL2vuzFSd5fL6Zys/view).
 
 ### GitHub Codespace
 
