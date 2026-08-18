@@ -12,10 +12,10 @@
     },
     {
       "rel": "wmts",
-      "href": "https://tileserver.example.com/styles/coastlines/wmts.xml",
+      "href": "https://tileserver.example.com/styles/ndvi/wmts.xml",
       "type": "application/xml",
       "title": "WMTS Service for this Collection",
-      "wms:layers": [
+      "wmts:layers": [
         "ndvi"
       ]
     },

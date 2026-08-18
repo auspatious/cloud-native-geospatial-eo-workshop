@@ -1,7 +1,10 @@
 {
   "type": "Feature",
   "stac_version": "1.1.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
   "id": "cogniscient-2026-08-03-index-nir-red-932px-hatsukaichi.tif",
   "geometry": {
     "type": "Polygon",
@@ -38,6 +41,55 @@
   ],
   "properties": {
     "example": 42.0,
+    "proj:epsg": 4326,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            132.2555054287642,
+            34.22673788179314
+          ],
+          [
+            132.35698658163625,
+            34.22673788179314
+          ],
+          [
+            132.35698658163625,
+            34.3172166985634
+          ],
+          [
+            132.2555054287642,
+            34.3172166985634
+          ],
+          [
+            132.2555054287642,
+            34.22673788179314
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      132.2555054287642,
+      34.22673788179314,
+      132.35698658163625,
+      34.3172166985634
+    ],
+    "proj:shape": [
+      1006,
+      932
+    ],
+    "proj:transform": [
+      0.00010888535715885652,
+      0.0,
+      132.2555054287642,
+      0.0,
+      -8.993918168017665e-05,
+      34.3172166985634,
+      0.0,
+      0.0,
+      1.0
+    ],
     "datetime": "2026-08-03T00:00:00Z"
   },
   "links": [
@@ -69,6 +121,38 @@
     "ndvi": {
       "href": "cogniscient-2026-08-03-index-nir-red-932px-hatsukaichi.tif",
       "type": "image/tiff; application=geotiff",
+      "raster:bands": [
+        {
+          "data_type": "float32",
+          "scale": 1.0,
+          "offset": 0.0,
+          "nodata": "nan",
+          "statistics": {
+            "mean": 0.315827140163312,
+            "minimum": -0.8497446775436401,
+            "maximum": 0.9417828321456909,
+            "stddev": 0.4617105868317952,
+            "valid_percent": 100.0
+          },
+          "histogram": {
+            "count": 11,
+            "min": -0.8497446775436401,
+            "max": 0.9417828321456909,
+            "buckets": [
+              1130,
+              13335,
+              21443,
+              50582,
+              400873,
+              41882,
+              22500,
+              12813,
+              17346,
+              355688
+            ]
+          }
+        }
+      ],
       "roles": []
     }
   },
