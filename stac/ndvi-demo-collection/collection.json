@@ -25,15 +25,15 @@
       "type": "application/geo+json"
     },
     {
+      "rel": "item",
+      "href": "./cogniscient-2026-08-03-index-nir-red-932px-hatsukaichi.stac-item.json",
+      "type": "application/geo+json"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Demo Catalog"
-    },
-    {
-      "rel": "self",
-      "href": "https://raw.githubusercontent.com/auspatious/cloud-native-geospatial-eo-workshop/main/stac/ndvi-demo-collection/collection.json",
-      "type": "application/json"
     }
   ],
   "title": "NDVI Demo Collection",
