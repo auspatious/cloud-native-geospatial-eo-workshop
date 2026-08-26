@@ -11,12 +11,6 @@
       "title": "Demo Catalog"
     },
     {
-      "rel": "child",
-      "href": "./ndvi-demo-collection/collection.json",
-      "type": "application/json",
-      "title": "NDVI Demo Collection"
-    },
-    {
       "rel": "self",
       "href": "https://raw.githubusercontent.com/auspatious/cloud-native-geospatial-eo-workshop/main/stac/catalog.json",
       "type": "application/json"

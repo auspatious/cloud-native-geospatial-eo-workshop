@@ -114,7 +114,7 @@
   ],
   "assets": {
     "ndvi": {
-      "href": "./cogniscient-2026-08-03-index-nir-red-932px-hatsukaichi.tif/",
+      "href": "cogniscient-2026-08-03-index-nir-red-932px-hatsukaichi.tif",
       "type": "image/tiff; application=geotiff",
       "raster:bands": [
         {
